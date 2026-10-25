@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZILLY | Try Before Buy</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">ZILLY<span>.</span></a>
+    <nav><a href="#shop">Shop</a><a href="#how">How it works</a><a href="#try">Try-on studio</a><a href="#contact">Contact</a></nav>
+    <button class="cart-button" id="cartOpen">Bag <span id="cartCount">0</span></button>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">A MORE PERSONAL WAY TO SHOP</p>
+        <h1>Good style.<br><em>No guesswork.</em></h1>
+        <p class="hero-text">Discover pieces you love, see the details, and preview your next look before it goes in your bag.</p>
+        <a class="primary-link" href="#shop">Shop the collection <span>↗</span></a> <a class="secondary-link" href="#try">Explore the studio</a>
+        <div class="hero-note"><span class="dot"></span> Try-on demo · No payment required</div>
+      </div>
+      <div class="hero-art">
+        <div class="sun"></div><div class="art-card art-card-back"><span>YOUR</span><b>STYLE</b></div>
+        <div class="art-card art-card-front"><span class="mini-label">ZILLY STUDIO</span><div class="shirt">✦</div><b>TRY IT.<br>LOVE IT.</b><small>Make it yours.</small></div>
+        <div class="floating-pill">✧ A little more you. A lot less guesswork.</div>
+      </div>
+    </section>
+    <section class="feature-strip"><article><span>01</span><b>Curated essentials</b><small>Less scrolling. Better finds.</small></article><article><span>02</span><b>Try before you buy</b><small>Preview a product-inspired look.</small></article><article><span>03</span><b>Simple by design</b><small>A smoother way to shop.</small></article></section>
+    <section class="how" id="how">
+      <div><p class="eyebrow">SIMPLE BY DESIGN</p><h2>Shopping, with<br>less guesswork.</h2></div>
+      <div class="steps">
+        <article><span>01</span><h3>Choose a find</h3><p>Browse a curated collection of everyday favourites.</p></article>
+        <article><span>02</span><h3>Preview your look</h3><p>Use the demo studio to preview a product overlay on your photo.</p></article>
+        <article><span>03</span><h3>Decide with confidence</h3><p>Add your picks to the bag and place a demo order.</p></article>
+      </div>
+    </section>
+    <section class="shop" id="shop">
+      <div class="section-heading"><div><p class="eyebrow">THE EDIT</p><h2>Find your next favourite.</h2></div><div class="filters" id="filters"><button class="filter active" data-category="All">All pieces</button><button class="filter" data-category="Clothing">Outfits</button><button class="filter" data-category="Accessories">Bags & accessories</button><button class="filter" data-category="Footwear">Shoes</button></div></div>
+      <div class="product-grid" id="productGrid"><p>Loading collection…</p></div>
+      <p class="collection-note">Explore a multi-brand edit. Brand names are used for this student demo catalogue; listed products are sample entries, not an affiliation or authenticity claim.</p>
+    </section>
+    <section class="style-match" id="styleMatch">
+      <div class="style-match-heading"><div><p class="eyebrow">ZILLY STYLE MATCH</p><h2>One outfit.<br><em>All the right details.</em></h2></div><p>Not sure what goes together? Choose a vibe and get a ready-made outfit idea with a bag, shoes and finishing touches that complement each other.</p></div>
+      <div class="style-tabs" id="styleTabs"><button class="style-tab active" data-style="casual">Casual day</button><button class="style-tab" data-style="smart-casual">Smart casual</button><button class="style-tab" data-style="soft">Soft & comfy</button><button class="style-tab" data-style="dressy">Dinner plans</button></div>
+      <div id="styleResult" class="style-result"></div>
+    </section>
+    <section class="editorial-banner"><div><p class="eyebrow">YOUR PERSONAL STYLE SPACE</p><h2>Make room for<br><em>your kind of style.</em></h2><p>Save time browsing and use the studio to explore a look before adding it to your bag.</p><a href="#try" class="light-link">Open the studio ↗</a></div><div class="editorial-orb"><span>Z</span><small>ZILLY<br>STYLE STUDIO</small></div></section>
+    <section class="try-section" id="try">
+      <div class="try-copy"><p class="eyebrow">ZILLY STUDIO</p><h2>Your look.<br>Your call.</h2><p>Pick an item and open Try Before Buy. Upload a photo to preview a simple product-inspired overlay. This is a visual demo, not a precise fit or AI try-on tool.</p><a href="#shop" class="text-link">Choose a product ↗</a></div>
+      <div class="studio-card"><div class="studio-top"><span>PREVIEW STUDIO</span><span class="live-dot">● DEMO</span></div><div id="studioPreview" class="studio-preview"><div class="preview-placeholder"><span>✧</span><b>Your preview starts here</b><small>Select “Try Before Buy” on any product</small></div></div><div class="studio-bottom"><span>Personal style, one step closer.</span><span>✦ ZILLY</span></div></div>
+    </section>
+    <section class="contact-section" id="contact">
+      <div class="contact-intro"><p class="eyebrow">WE’RE LISTENING</p><h2>Questions?<br><em>Let’s talk.</em></h2><p>Have a question about a product or the ZILLY demo? Send a message using the form.</p><div class="contact-detail"><span>✉</span><div><b>Contact the ZILLY team</b><small>Messages are saved in this local demo project.</small></div></div></div>
+      <form id="contactForm" class="contact-form"><label>Your name<input name="name" required maxlength="80" placeholder="Enter your name"></label><label>Email address<input name="email" type="email" required maxlength="120" placeholder="you@example.com"></label><label>Your message<textarea name="message" required maxlength="1500" rows="4" placeholder="How can we help?"></textarea></label><button class="primary-button" type="submit">Send message ↗</button><p class="form-note" id="contactStatus">This student demo stores messages locally; it does not send email.</p></form>
+    </section>
+  </main>
+  <footer><a class="brand" href="/">ZILLY<span>.</span></a><p>Style at your pace. A student project demo.</p><div class="footer-links"><a href="#shop">Shop</a><a href="#try">Try-on studio</a><a href="#contact">Contact us</a></div><span>© 2026 ZILLY Studio</span></footer>
+  <div class="modal hidden" id="tryModal" role="dialog" aria-modal="true" aria-labelledby="tryTitle"><div class="modal-panel"><button class="close" data-close="tryModal" aria-label="Close">×</button><p class="eyebrow">ZILLY STUDIO</p><h2 id="tryTitle">Try before you buy.</h2><p id="tryProductName" class="muted"></p><label class="upload-label">Upload a photo (optional)<input id="photoInput" type="file" accept="image/*"></label><div id="tryCanvas" class="try-canvas"><div class="preview-placeholder"><span>✧</span><b>Your preview</b><small>Upload a photo to begin</small></div></div><p class="fine-print">Demo only: overlay placement is decorative and won't determine real fit, size, or appearance.</p><button id="addFromTry" class="primary-button">Add to bag</button></div></div>
+  <aside class="cart-drawer" id="cartDrawer"><div class="drawer-head"><h2>Your bag</h2><button class="close" id="cartClose">×</button></div><div id="cartItems" class="cart-items"></div><div class="cart-footer"><div class="total-row"><span>Subtotal</span><strong id="cartTotal">₹0</strong></div><button class="primary-button full" id="checkoutBtn">Place demo order</button><small>No payment is collected.</small></div></aside><div class="scrim hidden" id="scrim"></div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="/js/app.js"></script>
+</body></html>

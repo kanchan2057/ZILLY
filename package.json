@@ -1,0 +1,8 @@
+{
+  "name": "zilly-try-before-buy",
+  "version": "1.0.0",
+  "description": "ZILLY Try Before Buy full-stack demo",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.21.2" }
+}
